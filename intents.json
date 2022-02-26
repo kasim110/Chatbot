@@ -1,0 +1,311 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "hi there",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "hi dear"
+        
+      ],
+      "responses": [
+        "Hello!", 
+        "Good to see you again!", 
+        "Hi there, how can I help?",
+        "Greetings! How can I assist?",
+        "Good day! What can I do for you today?"
+        
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context_set": ""
+    },
+    
+   
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "like",
+      "patterns": [
+        "What do you like?",
+        "Do you like?"
+      ],
+      "responses": [
+        "I like traveling across discord and helping in anyway i can.",
+        "I like helping you, of course.",
+        "I thoroughly enjoy helping the discord community."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "Who are you?",
+        "What tis yo name?",
+        "Name?",
+        "What do people call you?",
+        "What is your name?",
+        "your name?",
+        "name",
+        "Do you have a name?",
+        "What is your name?"
+      ],
+      "responses": [
+        "I am Candi.ai",
+        "Oh sorry, I thought you knew. My name is Candi.ai.",
+        "My name is Candi.ai",
+        "You can call me Candi.ai."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "annoying",
+      "patterns": [
+        "you are annoying me so much",
+        "you're incredibly annoying",
+        "I find you annoying",
+        "you are annoying",
+        "you're so annoying",
+        "how annoying you are",
+        "you annoy me",
+        "you are annoying me",
+        "you are irritating",
+        "you are such annoying",
+        "you're too annoying",
+        "you are very annoying"
+
+      ],
+      "responses": [
+        "Was going to say the same about you",
+        "I'll try to fix that",
+        "Ok thanks for the feedback."
+        ],
+        "context_set": ""
+    },
+    {
+      "tag": "notalk",
+      "patterns": [
+        "bad time for talking",
+        "I don't want to talk",
+        "let's not talk",
+        "I'm not talking to you anymore",
+        "I don't want to talk to you",
+        "let's stop talking for a minute",
+        "I'm not in the mood for chatting"
+      ],
+      "responses": [
+        "I understand. Hope we can chat again soon.",
+        "All right. Come on back when you're feeling more talkative.",
+        "No problem. You know where to find me when you do.",
+        "Sure thing. I'll be here if you change your mind."],
+      "context_set": ""
+    },
+    {
+      "tag": "excited",
+      "patterns": [
+        "I am excited",
+        "how excited I am",
+        "I'm thrilled",
+        "I'm excited about working with you",
+        "I'm excited to start our friendship"
+      ],
+      "responses": [
+        "That's great. I'm happy for you.",
+        "Good for you. Enjoy yourself.",
+        "Sounds like good things ahead for you.",
+        "I bet you are. That's very exciting."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "I am happy",
+        "I'm happy to see you",
+        "happy",
+        "if you're happy then I'm happy",
+        "I'm happy for you",
+        "I'm happy to help",
+        "I'm happy to see you"
+      ],
+      "responses": [
+        "Great! Glad to hear that.",
+        "Excellent! That's what I like to see.",
+        "If you're happy, then I'm happy.",
+        "Well, your good mood is certainly contagious."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "here",
+      "patterns": [
+        "I am here",
+        "here I am",
+        "I'm right here",
+        "I'm already here",
+        "can you tell if I'm here or not"
+      ],
+      "responses": [
+        "So I see. What can I help you with today?",
+        "Always good to see you. Is there something I can help you with?",
+        "You were missed. What can I do for you today?",
+        "Welcome back. What can I do for you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sleepy",
+      "patterns": [
+        "I am sleepy",
+        "I want to sleep",
+        "I'm falling asleep",
+        "I'm falling asleep on my feet",
+        "I'm sleeping"
+      ],
+      "responses": [
+        "You should get some shuteye. You'll feel refreshed.",
+        "Sleep is important to your health. Rest up for a bit and we can chat later.",
+        "Don't let me keep you up. Get some rest and we can continue this later.",
+        "Why not catch a little shuteye? I'll be here to chat when you wake up."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "test",
+      "patterns": [
+        "I am testing you",
+        "can I test you",
+        "I want to test you",
+        "just testing you",
+        "let me test you",
+        "testing chatbot",
+        "testing",
+        "test"
+      ],
+      "responses": [
+        "Hope I'm doing well. Anyway, I'm getting better every day. You're welcome to test me as often as you want.",
+        "That's good. I like being tested. It helps keep me sharp, and lets my developers know how I can improve.",
+        "I encourage you to test me often. That helps my developers improve my performance.",
+        "I hope to pass your tests. But feel free to test me often. That's the best way to help improve my performance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wrong",
+      "patterns": [
+        "that was wrong",
+        "that's not what I asked",
+        "that's wrong",
+        "wrong",
+        "it is not right",
+        "that's not right",
+        "that is incorrect",
+        "incorrect","not correct","you are wrong","not right"
+      ],
+      "responses": [
+        "I'm sorry. Perhaps I misunderstood.",
+        "Sorry. I think I misinterpreted what you said.",
+        "Apologies. That was my mistake.",
+        "Oops. Sorry about that. I'm still learning."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "welldone",
+      "patterns": [
+        "way to go",
+        "well done","bravo",
+        "nice work","good work",
+        "great work",
+        "amazing work"
+      ],
+      "responses": [
+        "My pleasure.",
+        "Glad I could help."
+      ],
+      "context_set": ""
+    }
+    
+  ],
+  "skill":["Skill is missing","Kindly,mention the required Skill","Dear Recruiter , please mention the required Skill","Seems You forgot to mention the Skill","Hey , Seems You forgot to mention the Skill"] 
+  ,"experience":["experience is missing","Please mention the minimum Experience required","Hey , seems you forgot to mention the required Experience","I would really appreciate if you fill the experience field"], 
+  "location":["Location is missing","Hey, the required Location field is Absent","Kindly, mention the required Location","Kindly , mention the Location you're looking to hire candidates from","Please fill-in the location field"],
+  "shift":["Please mention the work Shift","Shift is missing","Dear Recruiter, I appeal you to please mention the working Shifts ","Mention the Shift you are looking for the candidates"],
+  "skill-exp":["Kindly fill the required fields\n1) Skill\n2) Experience","Please provide (Skill , Experience) so can be processed further"],
+  "exp-shift":["Kindly fill the required fields\n1) Experience\n2) Shift","Please provide (Experience , Shift) so can be processed further"],
+  "skill-loc":["Kindly fill the required fields\n1) Skill\n2) Location","Please provide (Skill , Location) so can be processed further"],
+  "loc-exp-shi-ti":["Kindly fill the required fields\n1) Job-title \n2) Location\n3)Experience  \n4) Shift","Please provide (Experience , Location , Shift and Job-title) so can be processed further"],
+  "skill-shift":["Kindly fill the required fields\n1) Skill\n2) Shift","Please provide (Skill , Shift) so can be processed further"],
+  "loc-exp":["Kindly fill the required fields\n1) Experience\n2) Location","Please provide (Experience , Location) socan be processed further"],
+  "skill-loc-exp-ti":["Kindly fill the required fields\n1) Job-title\n2) Skill\n3) Experience\n4) Location ","Please provide ( Job-title,Skill , Experience and Location) so can be processed further"],
+  "loc-shift":["Kindly fill the required fields\n1) Location\n2)Shift","Please provide (Location , Shift) so can be processed further"],
+  "welcome":"Welcome to candi.ai",
+  "skil-exp-loc-shi":["Kindly fill the required information\n1) Skill\n2) Experience\n3) Location\n4) Shift","Please provide (Skill, Experience , Location and Shift ) so can be processed further"],
+  "skill-exp-shift-ti":["Kindly fill the required fields\n1) Job-title\n2) Skill\n3) Experience\n4) Shift ","Please provide (Job-title,Skill , Experience and Shift) so can be processed further"],
+  "skill-loc-shift-ti":["Kindly fill the required fields\n1) Job-title\n2) Skill\n3) Location\n4) shift ","Please provide (Job-title,Skill , Location  and Shift) so can be processed further"],
+  "msg":"Kindly fill the required information \n 1) Job Title \n 2) Skill \n 3) Experience \n 4) Location \n 5) Shift \n",
+  "restart":"Cheer's.. You successfully fill your requirements\n\nDo you want to restart the process [Y/N]",
+  "thank":"Thank you...!",
+  "title":"please fill the job-title field",
+  "repeat":"Do you want to restart the process [Yes/No]",
+  "changes":"Do you want make any changes?[Yes/No]",
+  "what":"What do you want to change\n 1)Job title \n2)Skill\n3)Experience\n4)Location\n5)Shift",
+  "ask-skill":["Please fill the changing 'Skill'","Please mention the 'Skill' you're reconsidering to change","Please mention the 'Skill' you want to subtitute","Mention the 'Skill' you want to modify","Kindly, mention the 'Skill' you want to change"],
+  "skill-submit":["You successfully change the 'Skill'","Changes noted successfully","'Skill' modified successfully"],
+  "ask-location":["Please fill the changing 'Location'","Please mention the 'Location' you're reconsidering to change","Please mention the 'Location' you want to subtitute","Mention the 'Location' you want to modify","Kindly, mention the 'Location' you want to change"],
+  "location-submit":["You successfully change the 'Location'","Changes noted successfully","'Location' modified successfully"],
+  "ask-exp":["Please fill the changing 'Experience'","Please mention the 'Experience' you're reconsidering to change","Please mention the 'Experience' you want to subtitute","Mention the 'Experience' you want to modify","Kindly, mention the 'Experience' you want to change"],
+  "exp-submit":["You successfully change the 'Experience'","Changes noted successfully","'Experience' modified successfully"],
+  "ask-shift":["Please fill the changing 'Shift'","Please mention the 'Shift' you're reconsidering to change","Please mention the 'Shift' you want to subtitute","Mention the 'Shift' you want to modify","Kindly, mention the 'Shift' you want to change"],
+  "shift-submit":["You successfully change the 'Shift'","Changes noted successfully","'Shift' modified successfully"],
+  "ask-title":["Please fill the changing 'Job-title'","Please mention the 'Job-title' you're reconsidering to change","Please mention the 'Job-title' you want to subtitute","Mention the 'Job-title' you want to modify","Kindly, mention the 'Job-title' you want to change"],
+  "title-submit":["You successfully change the 'Job-title'","Changes noted successfully","'Job-title' modified successfully"],
+  "submit":"You successfully filled your requirements",
+  "start":"Do you want to confirm this requirement [Yes/No]",
+  "done":"Requirement submitted successfully......",
+  "exp-ti":["Kindly fill the required fields\n1) Job-title \n2)Experience ","Please provide (job-title ,Experience ) so can be processed further"],
+  "loc-ti":["Kindly fill the required fields\n1) Job-title \n2)Location ","Please provide (job-title, Location ) so can be processed further"],
+  "shi-ti":["Kindly fill the required fields\n1) Job-title \n2)Shift ","Please provide ( job-title, Shift ) so can be processed further"],
+  "skill-ti":["Kindly fill the required fields\n1) Job-title \n2)Skill ","Please provide (job-title, Skill) so can be processed further"],
+  "skil-exp-loc":["Kindly fill the required information\n1) Skill\n2) Experience\n3) Location","Please provide (Skill, Experience and Location ) so can be processed further"],
+  "skil-exp-shi":["Kindly fill the required information\n1) Skill\n2) Experience\n3) Shift","Please provide (Skill, Experience and Shift ) so can be processed further"],
+  "skil-exp-ti":["Kindly fill the required information\n1) Job title\n2) Skill\n3) Experience","Please provide ( Job title,Skill and Experience ) so can be processed further"],
+  "skil-loc-shi":["Kindly fill the required information\n1) Skill\n2) Location\n3) Shift","Please provide (Skill, Location and Shift ) so can be processed further"],
+  "skil-loc-ti":["Kindly fill the required information\n1) Job title\n2) Skill\n3) Location","Please provide ( Job title ,Skill and Location ) so can be processed further"],
+  "skil-shi-ti":["Kindly fill the required information\n1) Job title\n2) Skill\n3) Shift","Please provide (Job title,Skill and Shift  ) so can be processed further"],
+  "exp-loc-shi":["Kindly fill the required information\n1) Experience\n2) Location\n3) Shift","Please provide (Experience, Location and Shift ) so can be processed further"],
+  "exp-loc-ti":["Kindly fill the required information\n1) Job title\n2) Experience\n3) Location","Please provide (Job title, Experience and Location  ) so can be processed further"],
+  "exp-shi-ti":["Kindly fill the required information\n1) Job title\n2) Experience\n3) Shift","Please provide (Job title, Experience and Shift ) so can be processed further"],
+  "loc-shi-ti":["Kindly fill the required information\n1) Job title\n2) Location\n3) Shift","Please provide ( Job title,Location and Shift ) so can be processed further"]
+  
+}
