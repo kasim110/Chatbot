@@ -24,7 +24,6 @@ def predict():
 
 
 if __name__ == "__main__":
-    open('msg.txt','w').close()
     app.run(debug=True)
     
 
