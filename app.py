@@ -1,5 +1,5 @@
 #from crypt import methods
-#chatbox-icon.svg , fill="#581B98"
+#chatbox-icon.svg
 from urllib import response
 from flask import Flask, render_template,request,jsonify
 from matplotlib.pyplot import text
