@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def index_get():
+    open("msg.txt","w").close()
     return render_template("base.html")
 
 
